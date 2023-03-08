@@ -1,0 +1,78 @@
+.headerWrapper {
+    min-height: 100%;
+    padding: 0.7rem;
+    background-color: #000;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1240px;
+        width: 100%;
+        margin: 0 auto;
+
+        info {
+            padding: 5px 0px;
+
+            p {
+                font-size: 16px;
+                color: #8d8d8d;
+            }
+        }
+
+        &Logo {
+            &Link {
+                h3 {
+                    font-family: inherit;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 2rem;
+                    line-height: 29px;
+                    letter-spacing: 0.01em;
+                    color: #d1d1d1;
+                }
+
+                span {
+                    color: #8d8d8d;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+.menuWrapper {
+    background-color: #5cbfeb;
+    border-bottom: 3px solid #3d3d3d;
+
+    .menu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+
+
+        a {
+            font-family: sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            display: inline-block;
+            padding: 0 20px;
+            color: #000;
+            font-weight: 600;
+        }
+
+        b {
+            font-size: 30px;
+            color: #000;
+            font-weight: 100;
+        }
+
+        a:hover {
+            color: #264f61;
+        }
+
+        a:active {
+            color: #3f8aab;
+        }
+    }
+}

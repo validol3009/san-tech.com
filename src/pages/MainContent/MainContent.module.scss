@@ -1,0 +1,116 @@
+.wrapper {
+    padding: 50px 200px;
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 25px;
+        text-align: justify;
+        line-height: normal;
+        padding: 10px 0;
+    }
+
+    .formWrapper {
+        padding: 20px;
+        background-color: #ffffff;
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+
+        h2 {
+            color: #525252;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        .form {
+            gap: 1rem;
+            display: grid;
+            margin: 20px 30px;
+
+
+            h1 {
+                display: grid;
+            }
+
+            .line {
+                border-top: 2px solid #c5c5c5;
+                margin-bottom: 0.75rem;
+                position: relative;
+                display: inline-block;
+            }
+
+            label {
+                color: #525252;
+                font-style: normal;
+                font-weight: 100;
+                font-size: 19px;
+                padding-right: 0px;
+                margin: 0px 0px 5px;
+                padding-right: 0px;
+            }
+
+            input {
+                color: #000;
+                height: 30px;
+                background: #e5e5e5;
+                border-radius: 10px;
+                border: 1px solid transparent;
+                outline: none;
+                padding: 0px 15px;
+            }
+
+            textarea {
+                color: #000;
+                height: 100px;
+                background: #e5e5e5;
+                border-radius: 10px;
+                border: 1px solid transparent;
+                outline: none;
+                resize: none;
+                padding: 10px 15px;
+            }
+
+            select {
+                color: #000;
+                height: 30px;
+                background: #e5e5e5;
+                border-radius: 10px;
+                border: 1px solid transparent;
+                outline: none;
+                padding: 0px 12px;
+            }
+
+            select:required {
+                position: center;
+            }
+
+            option {
+                color: #676767;
+            }
+
+            button {
+                background-color: #5886C2;
+                border-radius: 10px;
+                color: #fff;
+                height: 40px;
+                width: 200px;
+                cursor: pointer;
+                border: 1px solid transparent;
+                outline: none;
+            }
+
+            button:hover {
+                background-color: #659ADF;
+            }
+
+            button:active {
+                background-color: #455E89;
+            }
+        }
+    }
+}
